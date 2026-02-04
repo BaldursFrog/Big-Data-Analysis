@@ -4,4 +4,4 @@ Laboratory works and assignments for the Big Data Analysis course (2025–2026) 
 ## Laboratory Works
 | Lab | Description |
 | --- | --- |
-| [Lab 01 — Data Crawler & Cleaner](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/Data_Crawler) | Web data crawling and cleaning using a multi-agent pipeline |
+| [Data Crawler & Cleaner](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/Data_Crawler) | Web data crawling and cleaning using a multi-agent pipeline |
