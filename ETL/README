@@ -1,0 +1,42 @@
+# AI-Enhanced ETL: PDF Data & Comments Extraction
+
+Big Data Analysis (BIT, 2025–2026) — Laboratory Work (ETL)  
+Task: Extract data and related comment information from PDF files using an AI-enhanced ETL method and write an experimental report following the provided template.
+
+## Overview
+This project implements a simple **AI-enhanced ETL pipeline** for PDF documents.  
+It extracts raw text from a PDF, performs **NLP entity extraction** (dates, money, organizations, persons) using spaCy, and simulates **AI-based fact/figure/comment extraction** for a given topic. The results are cleaned (deduplicated) and exported to JSON.
+
+## ETL Pipeline
+1. **Extract**: Read PDF and extract raw text (`PyPDF2`)
+2. **Transform**:
+   - Named Entity Recognition (`spaCy`): DATE, MONEY, ORG, PERSON
+   - AI-enhanced extraction (simulated): facts, figures, comments based on the topic
+3. **Load**: Save structured output into `extracted_data.json`
+
+## Input
+- PDF file (default): `Amazon-2024-Annual-Report.pdf`
+- Topic prompt (example): `Amazon's revenue growth`
+
+## Output
+- `extracted_data.json` — structured extraction results:
+  - `dates`, `money`, `orgs`, `persons`
+  - `facts`, `figures`, `comments`
+
+## Repository Structure
+```text
+ETL/
+  etl_pipline.py
+  Amazon-2024-Annual-Report.pdf
+  extracted_data.json
+  README.md
+
+## Requirements
+
+Python 3.9+  
+PyPDF2  
+spaCy (en_core_web_sm)
+
+## Installation
+pip install PyPDF2 spacy
+python -m spacy download en_core_web_sm
