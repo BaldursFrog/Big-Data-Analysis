@@ -1,0 +1,5 @@
+kaggle
+pandas
+snorkel
+scikit-learn
+label-studio
