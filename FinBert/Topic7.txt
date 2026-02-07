@@ -1,0 +1,23 @@
+1. Core Mechanism Analysis
+
+· What fundamental advantages does BERT's "bidirectional encoding" offer over traditional "unidirectional encoding" in language understanding? Please illustrate using words with multiple meanings, such as "bank".
+
+· Briefly describe the respective objectives of the two pre-training tasks, Masked Language Modeling (MLM) and Next Sentence Prediction (NSP). How do they work together to enable the model to better understand text?
+
+2. Domain Adaptation Analysis
+
+· What key "domain adaptations" does FinBERT implement compared to the general BERT model? How do these improvements specifically help it achieve higher accuracy and confidence in financial text sentiment analysis? (Refer to the results comparison in Experiment 1)
+
+· The results of Experiment 1 show that the general BERT model classified most news headlines as "Neutral," while FinBERT's classifications were more differentiated. From the perspective of model training data, analyze the potential reasons for this phenomenon.
+
+3. Model Workflow
+
+· Describe the complete process of FinBERT handling the sentence "公司股价因业绩超预期而大涨" (The company's stock price surged due to better-than-expected earnings), detailing each stage from input (tokenization, embedding) to internal model processing (self-attention mechanism), and finally to output (sentiment probabilities).
+
+4. Experimental Comparison and Visualization
+
+· Compare the differences between BERT and FinBERT on the experimental dataset and create visualizations.
+
+5. Experiment Report
+
+· Write the experiment report according to the "Big Data Analysis Experiment Report Template" shared in the group chat.
