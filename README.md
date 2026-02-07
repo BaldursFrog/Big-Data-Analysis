@@ -7,3 +7,4 @@ Laboratory works and assignments for the Big Data Analysis course (2025–2026) 
 | [Data Crawler & Cleaner](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/Data_Crawler) | Web data crawling and cleaning using a multi-agent pipeline |
 | [CLIP Image–Text Matching](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/CLIP) | Image classification and semantic matching using contrastive learning (CLIP) |
 | [AI-Enhanced ETL (PDF Data Extraction)](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/ETL) | AI-enhanced ETL pipeline for extracting structured data and comments from PDF documents |
+| [Autolabelling_Snorkel](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/Autolabelling_Snorkel) | Weak supervision and automatic data labeling using Snorkel, Label Studio, and TF-IDF + Logistic Regression |
