@@ -8,3 +8,4 @@ Laboratory works and assignments for the Big Data Analysis course (2025–2026) 
 | [CLIP Image–Text Matching](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/CLIP) | Image classification and semantic matching using contrastive learning (CLIP) |
 | [AI-Enhanced ETL (PDF Data Extraction)](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/ETL) | AI-enhanced ETL pipeline for extracting structured data and comments from PDF documents |
 | [Autolabelling_Snorkel](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/Autolabelling_Snorkel) | Weak supervision and automatic data labeling using Snorkel, Label Studio, and TF-IDF + Logistic Regression |
+| [Regression and Clustering Experiments](https://github.com/BaldursFrog/Big-Data-Analysis/tree/main/Regression_Clustering) | Comparative analysis of regression and clustering methods on synthetic and real-world datasets, including linear models, neural networks, K-Means, and deep clustering approaches |
