@@ -44,4 +44,4 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -U pip
-pip install pandas numpy scikit-learn snorkel label-studio
+pip install requirements.txt
